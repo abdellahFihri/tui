@@ -4,14 +4,14 @@ import 'firebase/auth';
 require('dotenv').config()
 
 const  config= {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,//api key is hidden
     authDomain: "tui-assessment-app.firebaseapp.com",
     databaseURL: "https://tui-assessment-app.firebaseio.com",
     projectId: "tui-assessment-app",
     storageBucket: "tui-assessment-app.appspot.com",
-    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-    appId: `1:${process.env.REACT_APP_ID}:web:${process.env.REACT_APP_WEB}`,
-    measurementId: process.env.REACT_APP_MESUREMENT_ID
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,//hidden
+    appId: `1:${process.env.REACT_APP_ID}:web:${process.env.REACT_APP_WEB}`,//hidden
+    measurementId: process.env.REACT_APP_MESUREMENT_ID//hidden
   };
 
   export const createUserProfileDocument=async(userAuth)=>{

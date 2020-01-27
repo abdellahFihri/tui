@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-no-target-blank */
+
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import styles from "./home.module.scss";
@@ -26,7 +26,7 @@ const MainPage = () => {
         <li>
           Code snippets{" "}
           <a
-            href="https://github.com/abdellahFihri/fihri-tui-assessement"
+            href="https://github.com/abdellahFihri/tui"
             rel="noopener norefferer"
             target="_blank"
           >

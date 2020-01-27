@@ -45,8 +45,9 @@ rowsPerPage:10,
   };
 render(){
  const {classes,page,rowsPerPage}=this.state;
- const {rows,columns}=this.props;
-
+//  const {rows,columns}=this.props;
+let rows=this.props.users;
+let columns=this.props.columns
   return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
