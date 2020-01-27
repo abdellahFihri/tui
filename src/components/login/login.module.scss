@@ -1,0 +1,10 @@
+.formcontainer{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    #outlined{
+        border-radius: 5px !important;
+    }
+    
+}

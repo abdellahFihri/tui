@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+}
+.MuiDrawer-paper {
+  width: 200px !important;
+}
+.drawer {
+  width: 500px!important;
+}
+.drawerPaper {
+  width: 240 !important;
+}
+.drawerHeader {
+  display: "flex";
+  align-items: "center";
+  padding: spacing(0, 3);
+
+  justify-content: flex-end;
+}
+.ListItem {
+  :hover {
+    background: #4f99d6 !important;
+  }
+}
+.signout {
+  cursor: pointer !important;
+  color: red !important;
+  :hover {
+    text-decoration: underline;
+  }
+}
