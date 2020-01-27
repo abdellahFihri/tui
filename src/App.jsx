@@ -35,7 +35,7 @@ class App extends React.Component {
           });
           this.props.GetAdmin(this.state.currentUser.admin);
           this.props.IsUser(this.state.currentUser);
-          console.log("state if admin", this.state.currentUser.admin);
+         
         });
       } else {
         this.setState({ currentUser: userAuth });
@@ -47,7 +47,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("id from redux in app", this.props.currn);
+    
 
     return (
       <div className="App">

@@ -11,7 +11,7 @@ const  config= {
     storageBucket: "tui-assessment-app.appspot.com",
     messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,//hidden
     appId: `1:${process.env.REACT_APP_ID}:web:${process.env.REACT_APP_WEB}`,//hidden
-    measurementId: process.env.REACT_APP_MESUREMENT_ID//hidden
+    measurementId: process.env.REACT_APP_MESUREMENT_ID
   };
 
   export const createUserProfileDocument=async(userAuth)=>{

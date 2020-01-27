@@ -92,7 +92,7 @@ class SignUp extends Component {
       gender
     } = this.state.newUser;
     const { error } = this.state;
-    console.log("error", error);
+    
     return (
       <div className={styles.formcontainer}>
         <form noValidate autoComplete="off" onSubmit={this.handleSubmit}>

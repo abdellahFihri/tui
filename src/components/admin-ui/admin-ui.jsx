@@ -65,9 +65,7 @@ class AdminUserInterface extends Component {
     //distructuring
     const { data } = this.state; // both data and columns are coming from memoized selectors
     const { columns } = this.props.columns;
-    console.log("columsnfrom selector", this.props.columns);
-    console.log("users selector", this.props.users);
-
+    
     return (
       <MaterialTable
         title="Administrator Interface"
