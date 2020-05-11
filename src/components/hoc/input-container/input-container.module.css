@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+}
+.wrapper .container {
+  background: linear-gradient(to bottom, #5a4eff 0%, #5bb6f3 100%) !important;
+  width: 400px;
+  height: 600px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wrapper .container h1 {
+  color: #fff;
+}
+.wrapper .container hr {
+  border-bottom: solid black !important;
+  background: black !important;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper .container {
+    width: 100%;
+  }
+  .wrapper .wrapper {
+    width: 70%;
+  }
+}

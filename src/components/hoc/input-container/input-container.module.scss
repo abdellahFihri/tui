@@ -23,7 +23,10 @@ $boxBg: linear-gradient(to bottom, #5a4eff 0%, #5bb6f3 100%);
   }
   @media only screen and (max-width: 600px) {
     .container {
-      width: 400px;
+      width: 100%;
+    }
+    .wrapper{
+      width: 70%;
     }
   }
 }

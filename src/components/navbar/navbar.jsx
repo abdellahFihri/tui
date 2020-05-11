@@ -49,7 +49,7 @@ class NavDrawer extends Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              Abdellah Fihri: TUI Assessement
+              Users Data Tables
             </Typography>
           </Toolbar>
         </AppBar>
